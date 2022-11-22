@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    
+        
+    
+    <h1 id="title">Formulario de Encuesta</h1>
+    <p id="description">Por favor responda las preguntas</p>
+
+    <form id="survey-form">    
+        <div>
+            <label for="name" id="name-label" >Nombre:</label>
+            <input type="text" id="name" name="nombre" placeholder="Ingrese su nombre" required >     
+        </div>
+        <div>
+            <label for="email" id="email-label" >Email</label>
+            <input type="email" id="email" name="email" placeholder="Ingrese su Email" required >     
+        </div>
+        <div>
+            <label for="numero" id="number-label">Numero</label>
+            <input type="number" id="number" name="numero" placeholder="Ingrese su Numero" min="1" max="100" required >      
+        </div>
+
+        <div >
+            <p>Escoge un Hobbie</p>
+            <select id="dropdown" name="sex"  required>
+                <option >Escoge Hobbie</option>
+                <option value="television">Ver TV</option>
+                <option value="cine">Ir al Cine</option>
+                <option value="deporte">Deporte</option>
+                <option value="Bailar">Bailar</option>          
+            </select>
+       </div>
+       <div >
+                <p>Que Te gustaria hacer?</p>
+                <label for="trabajar"><input id="trabajar" type="radio" name="gusta-hacer" class="inline" value="trabajar"/> Trabajar</label>
+                <label for="estudiar"><input id="estudiar" type="radio" name="gusta-hacer" class="inline" value="estudiar"/> Estudiar</label>
+                <label for="ambas"><input id="ambas" type="radio" name="gusta-hacer" class="inline"value="ambas" />Ambas</label>       
+       
+        </div>
+        <div>
+            <p>Que te gustaria comprar?</p>
+  
+            <label><input type="checkbox" name="select" value="atributo" class="inline" />Zapatos</label>
+            <label><input type="checkbox" name="select" value="atributo" class="inline"/>Camisas</label>
+            <label><input type="checkbox" name="select" value="atributo" class="inline"/>Pantalones</label>
+            <label><input type="checkbox" name="select" value="atributo" class="inline"/>Franelas</label>
+            <label><input type="checkbox" name="select" value="atributo" class="inline"/>Reloj</label>
+            <label><input type="checkbox" name="select" value="atributo" class="inline"/>Ropa Interior</label>
+
+          </div> 
+  
+          <div >
+            <p>Algun comentario o sugerencia?</p>
+            <textarea id="sugerencia" name="sugerencias" placeholder="Escriba su comentario aqui"></textarea>
+          </div>
+          
+            <button type="submit" id="submit" >
+              Ingresar
+            </button>
+       
+    </form>
+
+     
+</body>
+</html>

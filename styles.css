@@ -1,0 +1,82 @@
+
+
+body {
+    
+    color: #ffffff;
+    font-family: Tahoma;
+    font-size: 20px;
+    background-image: url("https://media.istockphoto.com/id/1091348950/es/foto/cerca-de-las-manos-escribiendo-en-el-port%C3%A1til-concepto-de-trabajo-de-noche.jpg?s=612x612&w=is&k=20&c=KE_lYdVRrA2HTMulKOMBoxOvGxjtm2REzSg0RDDStOY=");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+  }
+
+  
+  
+  h1, p {
+    text-align: center;
+  }
+  
+  form {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    width: 500px;
+    /* Esquema del formulario */
+    padding: 1em;
+    border: 20px solid black;
+    border-radius: 2em;
+    background-color: #0a230a;
+  }
+   
+ 
+  label {
+    display: block;
+
+
+  }
+
+
+  input,
+  textarea,
+  select {
+    
+    width: 100%;
+    min-height: 2em;
+    
+  }
+
+ 
+  textarea {    
+    height: 6em;
+  }
+  
+
+ 
+
+  input, textarea {
+    background-color:white;
+    border: 2px solid #23100a;
+    color:black;
+    }
+
+    .inline {
+     
+      margin: 0 0.5em 0 0;
+      vertical-align: middle;
+      width: 15px;
+    }
+
+      
+ 
+  button{
+    
+    width: 100%;
+    margin: 2em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    color: #ffffff;
+    
+  }
+ 
+  
